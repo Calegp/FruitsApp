@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41B3378263228FF004BED20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B3377263228FF004BED20 /* SettingsView.swift */; };
+		E41B337B26322FA2004BED20 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B337A26322FA2004BED20 /* SettingsLabelView.swift */; };
+		E41DA5C12632376E005FD858 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41DA5C02632376E005FD858 /* SettingsRowView.swift */; };
 		E44FE3C5262A39B40052E2F6 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FE3C4262A39B40052E2F6 /* FruitCardView.swift */; };
 		E454943D26305AA800E3C11D /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E454943C26305AA800E3C11D /* FruitNutrientsView.swift */; };
 		E4929A15262F29FF0093AAC2 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4929A14262F29FF0093AAC2 /* FruitDetailView.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E41B3377263228FF004BED20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E41B337A26322FA2004BED20 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		E41DA5C02632376E005FD858 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = Fructus/App/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 		E44FE3C4262A39B40052E2F6 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		E454943C26305AA800E3C11D /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		E4929A14262F29FF0093AAC2 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 				E4E294CC2628DF2900733E09 /* ContentView.swift */,
 				E4C2CA36262A4A8C00207B88 /* OnboardingView.swift */,
 				E4929A14262F29FF0093AAC2 /* FruitDetailView.swift */,
+				E41B3377263228FF004BED20 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -67,12 +74,14 @@
 		E44FE3C3262A396D0052E2F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E41DA5C02632376E005FD858 /* SettingsRowView.swift */,
 				E44FE3C4262A39B40052E2F6 /* FruitCardView.swift */,
 				E4C2CA33262A462700207B88 /* StartButtonView.swift */,
 				E4D35104262CE7AE00DCACAA /* FruitRowView.swift */,
 				E4929A17262F2F290093AAC2 /* FruitHeaderView.swift */,
 				E4929A1A262F347F0093AAC2 /* SourceLinkView.swift */,
 				E454943C26305AA800E3C11D /* FruitNutrientsView.swift */,
+				E41B337A26322FA2004BED20 /* SettingsLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +211,7 @@
 			files = (
 				E4F51F0A262B520100B7DFAE /* FruitData.swift in Sources */,
 				E4929A1B262F347F0093AAC2 /* SourceLinkView.swift in Sources */,
+				E41DA5C12632376E005FD858 /* SettingsRowView.swift in Sources */,
 				E44FE3C5262A39B40052E2F6 /* FruitCardView.swift in Sources */,
 				E4D35105262CE7AE00DCACAA /* FruitRowView.swift in Sources */,
 				E454943D26305AA800E3C11D /* FruitNutrientsView.swift in Sources */,
@@ -210,8 +220,10 @@
 				E4E294CD2628DF2900733E09 /* ContentView.swift in Sources */,
 				E4929A18262F2F290093AAC2 /* FruitHeaderView.swift in Sources */,
 				E4C2CA37262A4A8C00207B88 /* OnboardingView.swift in Sources */,
+				E41B337B26322FA2004BED20 /* SettingsLabelView.swift in Sources */,
 				E4F51F05262B508000B7DFAE /* FruitModel.swift in Sources */,
 				E4E294CB2628DF2900733E09 /* FructusApp.swift in Sources */,
+				E41B3378263228FF004BED20 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
